@@ -47,6 +47,6 @@ The two relevant scripts are:
 
 ### References
 
-- Bartel, C. J., Trewartha, A., Wang, Q., Dunn, A., Jain, A., and Ceder, G. A critical examination of com- pound stability predictions from machine-learned for- mation energies. npj Computational Materials, 6(1): 97, Jul 2020. ISSN 2057-3960. doi: 10.1038/ s41524-020-00362-y. URL https://doi.org/10. 1038/s41524-020-00362-y
-- Choudhary, K. and DeCost, B. Atomistic line graph neural network for improved materials property pre- dictions. npj Computational Materials, 7(1):185, Nov 2021. ISSN 2057-3960. doi: 10.1038/ s41524-021-00650-1. URL https://doi.org/10. 1038/s41524-021-00650-1.
-- Zhao, Y., Siriwardane, E. M. D., Wu, Z., Fu, N., Al- Fahdi, M., Hu, M., and Hu, J. Physics guided deep learning for generative design of crystal materials with symmetry constraints. npj Computational Materials, 9 (1):38, Mar 2023. ISSN 2057-3960. doi: 10.1038/ s41524-023-00987-9. URL https://doi.org/10. 1038/s41524-023-00987-9
+- Bartel, C. J., Trewartha, A., Wang, Q., Dunn, A., Jain, A., and Ceder, G. A critical examination of com- pound stability predictions from machine-learned for- mation energies. npj Computational Materials, 6(1): 97, Jul 2020. ISSN 2057-3960. doi: 10.1038/s41524-020-00362-y. URL https://doi.org/10.1038/s41524-020-00362-y
+- Choudhary, K. and DeCost, B. Atomistic line graph neural network for improved materials property pre- dictions. npj Computational Materials, 7(1):185, Nov 2021. ISSN 2057-3960. doi: 10.1038/s41524-021-00650-1. URL https://doi.org/10.1038/s41524-021-00650-1
+- Zhao, Y., Siriwardane, E. M. D., Wu, Z., Fu, N., Al- Fahdi, M., Hu, M., and Hu, J. Physics guided deep learning for generative design of crystal materials with symmetry constraints. npj Computational Materials, 9 (1):38, Mar 2023. ISSN 2057-3960. doi: 10.1038/s41524-023-00987-9. URL https://doi.org/10.1038/s41524-023-00987-9

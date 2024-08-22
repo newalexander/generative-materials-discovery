@@ -29,6 +29,7 @@ tqdm.pandas()
 
 parser = argparse.ArgumentParser(description="Atomistic Line Graph Neural Network Pretrained Models")
 parser.add_argument("--model_name", default="Ed_tern",)
+parser.add_argument("--model_location", type=str)
 parser.add_argument("--file_format", default="cif", help="poscar/cif/xyz/pdb file format.")
 
 parser.add_argument("--file_path", default=None,
@@ -43,8 +44,7 @@ parser.add_argument('--batch_size', default=256, type=int,
                     help='batch size for test set dataloader')
 parser.add_argument('--n_jobs', default=32,
                     help='number of cores to use when ingesting dataset')
-parser.add_argument('--test_set_save_file',
-                    default='/fast/newas1/data/materials_project/Ed_tern/Ed_tern_slice_pred.csv')
+parser.add_argument('--test_set_save_file', type=str)
 
 parser.add_argument("--cutoff", default=8,
                     help="Distance cut-off for graph constuction, usually 8 for solids and 5 for molecules.",)
@@ -122,8 +122,8 @@ def get_figshare_model(model_name="jv_formation_energy_peratom_alignn"):
 def get_local_model(model_name):
     """Get ALIGNN torch models from a local directory."""
     tmp = local_models[model_name]
-    file = tmp[0]
-    config_params = loadjson(tmp[2])['model']
+    file = os.path.join(args.model_location, tmp[0])
+    config_params = loadjson(os.path.join(args.model_location, tmp[2]))['model']
     print(f'using model: {file} with params:')
     print(config_params)
 

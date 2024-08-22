@@ -33,7 +33,7 @@ mamba install numpy scipy=1.6.1 scikit-learn=0.22.2 matplotlib=3.4.1 pandas=1.2.
 mamba install jarvis-tools=2021.07.19 -c conda-forge
 pip install tqdm pydantic==1.10.7 cif2cell==2.0.0a3 flake8 pycodestyle pydocstyle pyparsing ase
 pip install torch==1.12.0+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
-pip install dgl-cu116==0.9.1 dglgo -f https://data.dgl.ai/wheels/repo.html  # based on specific cuda version
+mamba install -c dglteam "dgl=0.9"
 pip install pytorch-ignite==0.5.0.dev20221024
 pip install -e alignn/
 ```

@@ -125,8 +125,8 @@ figshare_models = {
 }
 local_models = {
     'Ed_tern': [
-        'materials-discovery/Ed_tern/checkpoint_300.pt',
+        'Ed_tern/checkpoint_300.pt',
         1,
-        'materials-discovery/Ed_tern/config.json'
+        'Ed_tern/config.json'
     ],
 }

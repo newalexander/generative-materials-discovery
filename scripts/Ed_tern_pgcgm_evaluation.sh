@@ -2,8 +2,8 @@
 
 # Licensed under the Apache License, Version 2.0
 
-PGCGM_DATA=...  # point to `pgcgm/2022_12_02_12_00_31-structures.csv`
-PGCGM_STRUCTURES=...  # point to `pgcgm/cifs/2022-12-02-12-00-31/`
+PGCGM_DATA=...  # point to `materials-discovery/data/pgcgm/Ed_tern.csv`
+PGCGM_STRUCTURES=...  # point to `materials-discovery/data/pgcgm/merged_cifs`
 PGCGM_PREDICTIONS=...  # where predictions for PGCGM data should be saved\
 
 

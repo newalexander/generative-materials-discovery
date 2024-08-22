@@ -2,6 +2,7 @@
 
 # Licensed under the Apache License, Version 2.0
 
+MODEL_LOCATION=... # point to `materials_discovery/Ed_tern`
 PGCGM_DATA=...  # point to `materials-discovery/data/pgcgm/Ed_tern.csv`
 PGCGM_STRUCTURES=...  # point to `materials-discovery/data/pgcgm/merged_cifs`
 PGCGM_PREDICTIONS=...  # where predictions for PGCGM data should be saved\

@@ -125,18 +125,8 @@ figshare_models = {
 }
 local_models = {
     'Ed_tern': [
-        '/fast/newas1/data/materials_project/Ed_tern/checkpoint_300.pt',
+        'materials-discovery/Ed_tern/checkpoint_300.pt',
         1,
-        '/home/newas1/mithril/alignn-clone/alignn/alignn/examples/sample_data/config_example.json'
+        'materials-discovery/Ed_tern/config.json'
     ],
-    'Ef_tern': [
-        '/fast/newas1/data/materials_project/Ef_tern/checkpoint_300.pt',
-        1,
-        '/home/newas1/mithril/alignn-clone/alignn/alignn/examples/sample_data/config_example.json'
-    ],
-    'stability_tern': [
-        '/newas1/data/materials_project/stability_tern/checkpoint_300.pt',
-        1,
-        '/home/newas1/mithril/alignn-clone/alignn/alignn/examples/sample_data/config_example.json'
-    ]
 }

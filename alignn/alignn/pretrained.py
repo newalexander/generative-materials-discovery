@@ -196,7 +196,7 @@ def get_predictions(
     print('model loaded')
 
     # ingest test set
-    test_set = pd.read_csv(args.test_set_file, header=None).rename({'id': 'file_path'}, axis=1)
+    test_set = pd.read_csv(args.test_set_file).rename({'id': 'file_path'}, axis=1)
     atoms = []
     for file_path in tqdm(test_set['file_path']):
         try:

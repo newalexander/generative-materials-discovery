@@ -10,6 +10,7 @@ PGCGM_PREDICTIONS=...  # where predictions for PGCGM data should be saved\
 
 python alignn/pretrained.py \
   --model_name Ed_tern \
+  --model_location $MODEL_LOCATION \
   --test_set_file $PGCGM_DATA \
   --test_set_structures $PGCGM_STRUCTURES \
   --test_set_save_file $PGCGM_PREDICTIONS \

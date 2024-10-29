@@ -3,7 +3,7 @@
 This repo contains files and data needed to reproduce the machine learning results of the paper "Materials discovery using generative machine learning". Further data is available at: https://doi.org/10.6084/m9.figshare.25783221.v4.
 
 
-In particular, it contains a modified version of the `2023.01.10` release of the `alignn` package (https://github.com/usnistgov/alignn/tree/v2023.01.10), developed by NIST. This package is associated with the ALIGNN framework (Bartel et al., 2020).
+In particular, it contains a modified version of the `2023.01.10` release of the `alignn` package (https://github.com/usnistgov/alignn/tree/v2023.01.10), developed by NIST. This package is associated with the ALIGNN framework (Choudhary et al., 2021).
 
 ### License
 
